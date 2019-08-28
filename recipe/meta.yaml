@@ -1,5 +1,5 @@
 {% set name = "tableschema-sql" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 524d5aa4da2fad6a1fd6a455a2c4727f794dcd25b69e765731c2e106d47a664d
+  sha256: 1f6cfa7203e259f5e8a8d7a61c0c87febb43529d63780291034b36603bc30827
 
 build:
   number: 0
